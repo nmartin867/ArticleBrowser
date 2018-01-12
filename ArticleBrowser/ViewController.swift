@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -21,5 +22,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func leftMenuButtonTap(_ sender: Any) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.centerContainer?.toggle(.left, animated: true, completion: nil)
+    }
 }
 
