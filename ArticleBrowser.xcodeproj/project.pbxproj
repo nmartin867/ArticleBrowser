@@ -15,6 +15,8 @@
 		01907F661FE8C4D100DFB681 /* ArticleBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01907F651FE8C4D100DFB681 /* ArticleBrowserTests.swift */; };
 		01907F711FE8C4D100DFB681 /* ArticleBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01907F701FE8C4D100DFB681 /* ArticleBrowserUITests.swift */; };
 		01BD576E200862B300E45B28 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD576D200862B300E45B28 /* LeftMenuViewController.swift */; };
+		01BD5775200874F400E45B28 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD5774200874F400E45B28 /* Todo.swift */; };
+		01BD5777200876DB00E45B28 /* BackendError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BD5776200876DB00E45B28 /* BackendError.swift */; };
 		21E3FE525D3DEBA54C261276 /* Pods_ArticleBrowserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E2E3A3A98245F3BFD32FA8 /* Pods_ArticleBrowserTests.framework */; };
 		9763863FCEFC4C24B72F06C0 /* Pods_ArticleBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECA0FB924E25CBA14F34DA8 /* Pods_ArticleBrowser.framework */; };
 		A0A113D470137353D3D74C0E /* Pods_ArticleBrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EB40E35D044A873524E473 /* Pods_ArticleBrowserUITests.framework */; };
@@ -52,6 +54,8 @@
 		01907F701FE8C4D100DFB681 /* ArticleBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleBrowserUITests.swift; sourceTree = "<group>"; };
 		01907F721FE8C4D100DFB681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01BD576D200862B300E45B28 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		01BD5774200874F400E45B28 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		01BD5776200876DB00E45B28 /* BackendError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendError.swift; sourceTree = "<group>"; };
 		01D876D0647BE9C62E8DB968 /* Pods-ArticleBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleBrowser/Pods-ArticleBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		031F229A47B0316E727A47A1 /* Pods-ArticleBrowserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleBrowserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleBrowserUITests/Pods-ArticleBrowserUITests.release.xcconfig"; sourceTree = "<group>"; };
 		25E2E3A3A98245F3BFD32FA8 /* Pods_ArticleBrowserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArticleBrowserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +120,7 @@
 		01907F4F1FE8C4D100DFB681 /* ArticleBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				01BD5773200874B900E45B28 /* model */,
 				01BD576D200862B300E45B28 /* LeftMenuViewController.swift */,
 				01907F501FE8C4D100DFB681 /* AppDelegate.swift */,
 				01907F521FE8C4D100DFB681 /* ViewController.swift */,
@@ -143,6 +148,15 @@
 				01907F721FE8C4D100DFB681 /* Info.plist */,
 			);
 			path = ArticleBrowserUITests;
+			sourceTree = "<group>";
+		};
+		01BD5773200874B900E45B28 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				01BD5774200874F400E45B28 /* Todo.swift */,
+				01BD5776200876DB00E45B28 /* BackendError.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		05D6234A63F7ADAA85B48FB6 /* Pods */ = {
@@ -464,7 +478,9 @@
 			files = (
 				01907F531FE8C4D100DFB681 /* ViewController.swift in Sources */,
 				01907F511FE8C4D100DFB681 /* AppDelegate.swift in Sources */,
+				01BD5777200876DB00E45B28 /* BackendError.swift in Sources */,
 				01BD576E200862B300E45B28 /* LeftMenuViewController.swift in Sources */,
+				01BD5775200874F400E45B28 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
